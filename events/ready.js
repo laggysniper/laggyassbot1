@@ -2,7 +2,7 @@ const { ActivityType } = require("discord.js");
 const client = require("../index");
 
 client.on("ready", async () => {
-  console.log(`${client.user.username} Is dnd`);
+  console.log(`${client.user.username} Is Online`);
   client.user.setActivity({
     name: `Made By Laggy Sniper`,
     type: ActivityType.Streaming,
