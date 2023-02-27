@@ -5,7 +5,7 @@ client.on("ready", async () => {
   console.log(`${client.user.username} Is Online`);
   client.user.setActivity({
     name: `Made By Laggy Sniper`,
-    type: ActivityType.Watching,
+    type: ActivityType.Streaming,
   });
 
   // loading database
